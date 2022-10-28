@@ -3,7 +3,7 @@ import java.util.concurrent.ForkJoinPool;
 
 public class TestesQuicksortForkJoin {
 	public static void main(String[] args) {
-		//cria um pool de threads Fork/Join
+	//cria um pool de threads Fork/Join
         ForkJoinPool pool = new ForkJoinPool();
         
         //array que será ordenado
