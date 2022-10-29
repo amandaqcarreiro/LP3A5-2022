@@ -1,0 +1,22 @@
+@SuppressWarnings("serial")
+public class NovaExcecao extends Exception {
+	
+	private int num;
+	private int den;
+	
+	public NovaExcecao() {
+		System.out.println("Ocorreu um erro inesperado");
+	}
+
+	public NovaExcecao(Throwable cause) {
+		super(cause);
+	}
+	
+	public NovaExcecao(int num, int den) {
+		super();
+		this.num = num;
+		this.den = den;
+	}
+	
+
+}
